@@ -1,14 +1,24 @@
+<?php
+//include auth_session.php file on all user panel pages
+include("auth_session.php");
+?>
+<!DOCTYPE html>
 <html>
+<head>
+    <meta charset="utf-8">
+    <title>Dashboard - Admin area</title>
+    <link rel="stylesheet" href="adstyle.css" />
+</head>
+<body>
 
-<script data-ad-client="ca-pub-8748619972226353" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    
-    <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="UTF-8">
+    <meta name="propeller" content="0703b59bb39e4301e6746c2e614e67f7">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/apple-touch-icon.png" type="image/x-icon">
   <meta name="description" content="">
-  <title>Home</title>
+  
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -39,6 +49,7 @@
             <a download href="dwln\mpt_apk.apk">
   Download our new APP!
 
+
 </a>
                 
 
@@ -52,30 +63,19 @@
     </nav>
 </section>
 
-<link rel="shortcut icon" href="assets/images/apple-touch-icon.png" type="image/x-icon">
-<br><br><br><br><br>
-<?php
-/* Attempt MySQL server connection. Assuming you are running MySQL
-server with default setting (user 'root' with no password) */
-$link = mysqli_connect("localhost", "root", "", "wlblog");
- 
-// Check connection
-if($link === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
-}
- 
-// Escape user inputs for security
-$mess = mysqli_real_escape_string($link, $_REQUEST['mess']);
+<div class="form">
+        <p>Hey, <?php echo $_SESSION['username']; ?>!</p>
+        <p>You are in user dashboard page.</p>
+        <p><a href="adlogout.php">Logout</a></p>
+    </div>
 
- 
-// attempt insert query execution
-$sql = "INSERT INTO posts (mess) VALUES ('$mess')";
-if(mysqli_query($link, $sql)){
-    echo "Records added successfully.";
-} else{
-    echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
-}
- 
-// close connection
-mysqli_close($link);
-?>
+    <form action="insert.php" method="post">
+	<p>
+    	<label for="mess">Message:</label>
+        <input type="text" name="mess" id="mess">
+    </p>
+    <input type="submit" value="Add Records">
+</form>
+
+</body>
+</html>

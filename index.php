@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html  >
 <head>
-    
-<script data-ad-client="ca-pub-8748619972226353" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    
+ <script data-ad-client="ca-pub-8748619972226353" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="propeller" content="0703b59bb39e4301e6746c2e614e67f7">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/apple-touch-icon.png" type="image/x-icon">
@@ -41,8 +40,7 @@
             <a download href="dwln\mpt_apk.apk">
   Download our new APP!
 
-  <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="update.html" target="_blank">
-                        Admin Area</a></div>
+
 </a>
                 
 
@@ -104,6 +102,9 @@ $conn->close();
             <div class="col-12">
                 <p class="mbr-text mb-0 mbr-fonts-style display-7">
                     <a href="https://github.com/it5-j05h" class="text-primary" target="_blank">© Copyright 2020 IT5_J05H&nbsp; - All Rights Reserved</a>
+               <br>
+                    <a href="adindex.php" class="text-primary" target="_blank">Admin Area</a>
+
                 </p>
             </div>
         </div>

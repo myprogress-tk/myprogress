@@ -2,13 +2,14 @@
 <html  >
 <head>
  <script data-ad-client="ca-pub-8748619972226353" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <meta charset="UTF-8">
-    <meta name="propeller" content="0703b59bb39e4301e6746c2e614e67f7">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<meta charset="UTF-8">
+<meta name="thepentestfac-verification" content="uZ21uOMRqxnIvBq">
+<meta name="propeller" content="0703b59bb39e4301e6746c2e614e67f7">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Mobirise v5.2.0, mobirise.com">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/apple-touch-icon.png" type="image/x-icon">
-  <meta name="description" content="">
+<meta name="description" content="">
   <title>Home</title>
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -35,18 +36,9 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            
-            
             <a download href="dwln\mpt_apk.apk">
   Download our new APP!
-
-
 </a>
-                
-
-</a>
-                
-                
                 <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="refer.php" target="_blank">
                         My Dashboard</a></div>
             </div>
@@ -58,7 +50,6 @@
         <div class="row">
             <div class="content-wrap">
                 <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>My</strong><br><strong>Progress</strong></h1>
-                
                 <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7">
                     Use this tool to keep track of your weight loss&nbsp;progress&nbsp;</p>
                 <div class="mbr-section-btn"><a class="btn btn-primary display-4" href="db\index.php" target="_blank">My Dashboard</a></div>
@@ -77,11 +68,11 @@
 <?php
 include_once 'dbb.php';
 $result = mysqli_query($conn,"SELECT * FROM myusers");
-$sql = "SELECT mess, timest FROM posts";
+$sql = "SELECT mess, timest FROM posts ORDER BY timest DESC";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
-    echo "Update: " . $row["mess"]. " - Date/Time: " . $row["timest"]. "<br><br><br>";
+    echo $row["timest"]. " ". ": " . $row["mess"]. "<br><br><br>";
   }
 } else {
   echo "0 results";
@@ -101,10 +92,9 @@ $conn->close();
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    <a href="https://github.com/it5-j05h" class="text-primary" target="_blank">© Copyright 2020 IT5_J05H&nbsp; - All Rights Reserved</a>
+                    <a href="https://linkmix.co/2370029" class="text-primary" target="_blank">© Copyright 2021 IT5_J05H&nbsp;</a>
                <br>
                     <a href="adindex.php" class="text-primary" target="_blank">Admin Area</a>
-
                 </p>
             </div>
         </div>

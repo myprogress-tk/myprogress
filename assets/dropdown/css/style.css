@@ -194,7 +194,7 @@
     white-space: normal; }
     .nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover,
     .nav-dropdown-sm .dropdown-item:focus,
-    .nav-dropdown-sm .dropdown-item:hover {
+    .nav-dropdown-sm .dropdown-item:focus {
       background: rgba(0, 0, 0, 0.2) !important;
       color: #c0a375; }
   .nav-dropdown-sm .nav-btn {
@@ -247,7 +247,7 @@
 .navbar-toggleable-sm .nav-dropdown .dropdown-submenu {
   left: 100%;
   margin-left: 0.125rem;
-  margin-top: -1.25rem;
+  margin-top: -0.125rem;
   top: 0; }
 
 .navbar-toggleable-sm.opened .nav-dropdown .dropdown-menu {

@@ -1,14 +1,14 @@
 body {
-    background: #3e4144;
+    background: #ffffff;
 }
 .form {
     margin: 50px auto;
     width: 300px;
     padding: 30px 25px;
-    background: white;
+    background: rgba(192, 190, 190, 0.644);
 }
 h1.login-title {
-    color: #666;
+    color: rgb(0, 0, 0);
     margin: 0px auto 25px;
     font-size: 25px;
     font-weight: 300;
@@ -16,19 +16,19 @@ h1.login-title {
 }
 .login-input {
     font-size: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(255, 0, 0);
     padding: 10px;
     margin-bottom: 25px;
     height: 25px;
     width: calc(100% - 23px);
 }
 .login-input:focus {
-    border-color:#6e8095;
+    border-color:#4e515593;
     outline: none;
 }
 .login-button {
-    color: #fff;
-    background: #55a1ff;
+    color: rgb(29, 165, 16);
+    background: #376aa8;
     border: 0;
     outline: 0;
     width: 100%;
@@ -49,4 +49,12 @@ h1.login-title {
 h3 {
     font-weight: normal;
     text-align: center;
+}
+input {
+    text-align: center;
+  }
+.centered {
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
 }

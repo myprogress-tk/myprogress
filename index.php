@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html  >
+<html>
+<style>table {text-allign: center:}
+</style>
 <head>
- <script data-ad-client="ca-pub-8748619972226353" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<meta charset="UTF-8">
-<meta name="thepentestfac-verification" content="uZ21uOMRqxnIvBq">
+<!-- 3rd party app widgets -->
+<script data-ad-client="ca-pub-3303834206127195" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <meta name="propeller" content="0703b59bb39e4301e6746c2e614e67f7">
+<meta name="thepentestfac-verification" content="uZ21uOMRqxnIvBq">
+<!-- styling -->
+<meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
@@ -21,6 +25,7 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 </head>
 <body>
+<!-- header -->
   <section class="menu menu1 cid-sjtZHTBnDH" once="menu" id="menu1-0">
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container">
@@ -45,6 +50,7 @@
         </div>
     </nav>
 </section>
+<!-- main content -->
 <section class="header4 cid-sjtZJsGRPU mbr-fullscreen" id="header4-1">
     <div class="container">
         <div class="row">
@@ -57,7 +63,13 @@
         </div>
     </div>
 </section>
-<section class="video2 cid-skGw5Dlwxg" id="video2-3">
+<br><br><br>
+
+<p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7">
+                    Use this tool to keep track of your weight loss&nbsp;progress&nbsp;</p></p>
+<!-- Blog Updates -->
+<center>
+<section class="center" id="video2-3">
     <div class="container">
         <div class="mbr-section-head">
             <h4 class="mbr-section-title mbr-fonts-style mb-0 display-2">
@@ -68,25 +80,28 @@
 <?php
 include_once 'dbb.php';
 $result = mysqli_query($conn,"SELECT * FROM myusers");
-$sql = "SELECT mess, timest FROM posts ORDER BY timest DESC";
+$sql = "SELECT title, mess, timest FROM posts ORDER BY timest DESC";
 $result = $conn->query($sql);
+
 if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
-    echo $row["timest"]. " ". ": " . $row["mess"]. "<br><br><br>";
+    echo "<br>". "<br>". $row["title"]. " ". ": " . $row["mess"]. "<br>"; 
   }
 } else {
   echo "0 results";
 }
 $conn->close();
 ?>
-<br><br>
+<br><br><br>
                 <p class="mbr-text pt-2 mbr-fonts-style display-4">
                 Remember to track your progress every day to help you visualise your goal!</p>
+                <p>all emails will be read and and/or discarded if valued as spam, any new project ideas give me a shout. <br> my E-Mail is in the footer </p>
                 <br><br>
             </div>
         </div>
     </div>
-</section>
+</section> </center>
+<!-- Footer -->
 <section class="footer7 cid-sju0OjhhgU" once="footers" id="footer7-2">
     <div class="container">
         <div class="media-container-row align-center mbr-white">
@@ -95,6 +110,8 @@ $conn->close();
                     <a href="https://linkmix.co/2370029" class="text-primary" target="_blank">© Copyright 2021 IT5_J05H&nbsp;</a>
                <br>
                     <a href="adindex.php" class="text-primary" target="_blank">Admin Area</a>
+            <br> <a href="https://linkmix.co/2370029" class="text-primary" target="_blank"></a>
+            <a href="mailto:joshua.rogers.2105@gmail.com">Email Me (joshua.rogers.2105@gmail.com)</a> 
                 </p>
             </div>
         </div>

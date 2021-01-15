@@ -52,7 +52,6 @@ include("auth_session.php");
 
 </a>
                 
-
 </a>
                 
                 
@@ -62,20 +61,26 @@ include("auth_session.php");
         </div>
     </nav>
 </section>
-
+<center>
 <div class="form">
-        <p>Hey, <?php echo $_SESSION['username']; ?>!</p>
+         <p>Hey, <?php echo $_SESSION['username']; ?>!</p>
         <p>You are in user dashboard page.</p>
         <p><a href="adlogout.php">Logout</a></p>
     </div>
 
     <form action="insert.php" method="post">
 	<p>
-    	<label for="mess">Message:</label>
-        <input type="text" name="mess" id="mess">
+
+    <label for="mess">Title:</label>
+        <input align="center" type="text" name="title" id="title">
+
+    <label for="mess">Message:</label>
+        <input align="center" type="text" name="mess" id="mess">
+  
     </p>
-    <input type="submit" value="Add Records">
+    <input type="submit" value="Add Blog Update">
 </form>
+<center>
 
 </body>
 </html>

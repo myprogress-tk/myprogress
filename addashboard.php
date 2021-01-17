@@ -78,9 +78,8 @@ include("auth_session.php");
 
     <input type="submit" value="Add blog post!">
 </form>
-
-<div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="adlogout.php" target="_blank">Log Out</a></div>
-
+<br><br><br><br><br>
+<a href="adlogout.php">Log Out</a>
 </center>
 
 </html>

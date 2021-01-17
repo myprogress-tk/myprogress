@@ -2,4 +2,4 @@
 
 > [MyWebsite](myprogress.tk/) &nbsp;&middot;&nbsp;
 > GitHub [@MyGitHub](https://github.com/it5-j05h) &nbsp;&middot;&nbsp;
-> Other [Myfacebook](https://www.facebook.com/rogers2105/) &nbsp;&middot;&nbsp;
+> Facebook [Myfacebook](https://www.facebook.com/rogers2105/) &nbsp;&middot;&nbsp;

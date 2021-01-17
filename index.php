@@ -99,9 +99,9 @@ $conn->close();
                 Remember to track your progress every day to help you visualise your goal!</i>
                <br>
                <br>
-               
+               <br><br>
                 <i>all emails will be read and and/or discarded if valued as spam, any new project ideas give me a shout. <br> my E-Mail is in the footer </i>
-                <br><br>
+                <br><br> <br><br>
             </div>
         </div>
     </div>
@@ -114,7 +114,7 @@ $conn->close();
                 <p class="mbr-text mb-0 mbr-fonts-style display-7">
                     <a href="https://linkmix.co/2370029" class="text-primary" target="_blank">© Copyright 2021 IT5_J05H&nbsp;</a>
                <br>
-                    <a href="adindex.php" class="text-primary" target="_blank">Admin Area</a>
+                    <a href="404.html" class="text-primary" target="_blank">Admin Area</a>
             <br> <a href="https://linkmix.co/2370029" class="text-primary" target="_blank"></a>
             <a href="mailto:joshua.rogers.2105@gmail.com">Email Me (joshua.rogers.2105@gmail.com)</a> 
                 </p>

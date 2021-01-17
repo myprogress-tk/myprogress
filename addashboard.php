@@ -59,18 +59,43 @@ include("auth_session.php");
         </div>
     </nav>
 </section>
+<br><br><br>
 <center>
+
 <form action="insert.php" method="post">
+    <p>
+        <label for="firstName">Title:</label>
+        <input type="text" name="tit" id="tit">
+    </p>
+    <p>
+        <label for="mess">Message:</label>
+        <input type="text" name="mess" id="mess">
+    </p>
 
-Title: <input type="text" name="tit" /><br><br>
-
-Message: <input type="text" name="mess" /><br><br>
-
- 
-
-<input type="submit" />
-
+    <input type="submit" value="Submit">
 </form>
+
+</center>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <center>
 
 </body>

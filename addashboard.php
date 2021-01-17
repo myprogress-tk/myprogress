@@ -52,9 +52,7 @@ include("auth_session.php");
 
 </a>
                 
-</a>
-                
-                
+</a>                
                 <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="refer.php" target="_blank">
                         My Dashboard</a></div>
             </div>
@@ -62,23 +60,16 @@ include("auth_session.php");
     </nav>
 </section>
 <center>
-<div class="form">
-         <p>Hey, <?php echo $_SESSION['username']; ?>!</p>
-        <p>You are in user dashboard page.</p>
-        <p><a href="adlogout.php">Logout</a></p>
-    </div>
+<form action="insert.php" method="post">
 
-    <form action="insert.php" method="post">
-	<p>
+Title: <input type="text" name="tit" /><br><br>
 
-    <label for="mess">Title:</label>
-        <input align="center" type="text" name="title" id="title">
+Message: <input type="text" name="mess" /><br><br>
 
-    <label for="mess">Message:</label>
-        <input align="center" type="text" name="mess" id="mess">
-  
-    </p>
-    <input type="submit" value="Add Blog Update">
+ 
+
+<input type="submit" />
+
 </form>
 <center>
 

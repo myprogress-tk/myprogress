@@ -5,6 +5,8 @@
 <head>
 <!-- 3rd party app widgets -->
 <script data-ad-client="ca-pub-3303834206127195" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script data-ad-client="ca-pub-8748619972226353" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script data-ad-client="ca-pub-3303834206127195" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <meta name="propeller" content="0703b59bb39e4301e6746c2e614e67f7">
 <meta name="thepentestfac-verification" content="uZ21uOMRqxnIvBq">
 <!-- styling -->
@@ -80,12 +82,12 @@
 <?php
 include_once 'dbb.php';
 $result = mysqli_query($conn,"SELECT * FROM myusers");
-$sql = "SELECT title, mess, timest FROM posts ORDER BY timest DESC";
+$sql = "SELECT tit, mess, timest FROM posts ORDER BY timest DESC";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
-    echo "<br>". "<br>". $row["title"]. " ". ": " . $row["mess"]. "<br>"; 
+    echo "<br>". "<br>". $row["tit"]. " ". "<br>" . $row["mess"]. "<br>"; 
   }
 } else {
   echo "0 results";
@@ -93,9 +95,12 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?>
 <br><br><br>
-                <p class="mbr-text pt-2 mbr-fonts-style display-4">
-                Remember to track your progress every day to help you visualise your goal!</p>
-                <p>all emails will be read and and/or discarded if valued as spam, any new project ideas give me a shout. <br> my E-Mail is in the footer </p>
+                <i class="mbr-text pt-2 mbr-fonts-style display-4">
+                Remember to track your progress every day to help you visualise your goal!</i>
+               <br>
+               <br>
+               
+                <i>all emails will be read and and/or discarded if valued as spam, any new project ideas give me a shout. <br> my E-Mail is in the footer </i>
                 <br><br>
             </div>
         </div>

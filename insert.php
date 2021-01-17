@@ -50,31 +50,24 @@
 <!-- Blog Updates -->
 <center>
 <link rel="shortcut icon" href="assets/images/apple-touch-icon.png" type="image/x-icon">
-<br><br><br><br><br>
-<?php
-/* Attempt MySQL server connection. Assuming you are running MySQL
-server with default setting (user 'root' with no password) */
-$link = mysqli_connect("localhost", "root", "", "wlblog");
- 
-// Check connection
-if($link === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
-}
- 
-// Escape user inputs for security
-$mess = mysqli_real_escape_string($link, $_REQUEST['mess']);
 
- 
-// attempt insert query execution
-$sql = "INSERT INTO posts (title) VALUES ('$title')";
-$sql = "INSERT INTO posts (mess) VALUES ('$mess')";
-if(mysqli_query($link, $sql)){
-    echo "Records added successfully.";
-} else{
-    echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+
+<?php
+$con = mysql_connect("localhost", "root", "",);
+$db = mysql_select_db("wlblog", $con);
+if(isset($_POST['submit'])){ 
+$tit = $_POST['tit'];
+$mess = $_POST['mess'];
+if($tit !=''||$mess !=''){
+//Insert Query of SQL
+$query = mysql_query("insert into posts(tit, mess,) values ('$tit', '$mess')");
+echo "<br/><br/><span>Data Inserted successfully...!!</span>";
 }
- 
-// close connection
-mysqli_close($link);
+else{
+echo "<p>Insertion Failed <br/> Some Fields are Blank....!!</p>";
+}
+}
+mysql_close($con); // Closing Connection with Server
 ?>
-</center>?
+
+</center>

@@ -1,5 +1,5 @@
 body {
-    background: #ffffff;
+    background: #15817c;
 }
 .form {
     margin: 50px auto;
@@ -23,12 +23,12 @@ h1.login-title {
     width: calc(100% - 23px);
 }
 .login-input:focus {
-    border-color:#4e515593;
+    border-color:#61626393;
     outline: none;
 }
 .login-button {
-    color: rgb(29, 165, 16);
-    background: #376aa8;
+    color: rgb(255, 255, 255);
+    background: #1d4c85;
     border: 0;
     outline: 0;
     width: 100%;
@@ -51,7 +51,7 @@ h3 {
     text-align: center;
 }
 input {
-    text-align: center;
+    text-align: left;
   }
 .centered {
     margin: 0 auto;

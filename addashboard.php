@@ -52,34 +52,56 @@ include("auth_session.php");
 
 </a>
                 
-</a>
-                
-                
+</a>                
                 <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="refer.php" target="_blank">
                         My Dashboard</a></div>
             </div>
         </div>
     </nav>
 </section>
+<br><br><br>
+
+
+
 <center>
-<div class="form">
-         <p>Hey, <?php echo $_SESSION['username']; ?>!</p>
-        <p>You are in user dashboard page.</p>
-        <p><a href="adlogout.php">Logout</a></p>
-    </div>
 
-    <form action="insert.php" method="post">
-	<p>
-
-    <label for="mess">Title:</label>
-        <input align="center" type="text" name="title" id="title">
-
-    <label for="mess">Message:</label>
-        <input align="center" type="text" name="mess" id="mess">
-  
+<form action="insert.php" method="post">
+    <p>
+        <label for="tit">Title:</label><br>
+        <input type="text" name="tit" id="tit">
     </p>
-    <input type="submit" value="Add Blog Update">
+    <p>
+        <label for="mess">Message:</label><br>
+        
+        <textarea rows="4" cols="50" name="mess"></textarea>
+    </p>
+
+    <input type="submit" value="Add blog post!">
 </form>
+
+<div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="adlogout.php" target="_blank">Log Out</a></div>
+
+</center>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <center>
 
 </body>

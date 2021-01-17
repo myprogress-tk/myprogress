@@ -28,7 +28,7 @@
             header("Location: addashboard.php");
         } else {
             echo "<div class='form'>
-                  <h3>Incorrect Username/password.</h3><br/>
+                  <h3>Sorry, you got that wrong :(</h3><br/>
                   <p class='link'>Click here to <a href='adlogin.php'>Login</a> again.</p>
                   </div>";
         }

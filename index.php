@@ -4,9 +4,7 @@
 </style>
 <head>
 <!-- 3rd party app widgets -->
-<script data-ad-client="ca-pub-3303834206127195" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script data-ad-client="ca-pub-8748619972226353" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script data-ad-client="ca-pub-3303834206127195" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <meta name="propeller" content="0703b59bb39e4301e6746c2e614e67f7">
 <meta name="thepentestfac-verification" content="uZ21uOMRqxnIvBq">
 <!-- styling -->

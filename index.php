@@ -4,8 +4,13 @@
 </style>
 <head>
 <!-- 3rd party app widgets -->
+<script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
+
+<script data-ad-client="ca-pub-4182551502558990" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 <script data-ad-client="ca-pub-8748619972226353" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<meta name="propeller" content="0703b59bb39e4301e6746c2e614e67f7">
 <meta name="thepentestfac-verification" content="uZ21uOMRqxnIvBq">
 <!-- styling -->
 <meta charset="UTF-8">
@@ -25,6 +30,9 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 </head>
 <body>
+<amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-8748619972226353">
+</amp-auto-ads>
 <!-- header -->
   <section class="menu menu1 cid-sjtZHTBnDH" once="menu" id="menu1-0">
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">

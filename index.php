@@ -8,10 +8,20 @@
         src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
 </script>
 
-<script data-ad-client="ca-pub-4182551502558990" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script data-ad-client="ca-pub-4182551502558990" async 
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+</script>
 
-<script data-ad-client="ca-pub-8748619972226353" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script data-ad-client="ca-pub-8748619972226353" async 
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+</script>
+
 <meta name="thepentestfac-verification" content="uZ21uOMRqxnIvBq">
+
+<script data-ad-client="ca-pub-8748619972226353" async 
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+</script>
+
 <!-- styling -->
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">

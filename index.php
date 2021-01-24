@@ -59,8 +59,10 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <center>
             <a download href="dwln\mpt_apk.apk">
   Download our new APP!
+  </center>
 </a>
                 <div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="refer.php" target="_blank">
                         My Dashboard</a></div>
